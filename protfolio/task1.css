@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/red-watercolor-background_1378-184.jpg?size=626&ext=jpg);
+
+}
+
+.header {
+    display: flex;
+    gap: 40px;
+    padding-left: 20px;
+    position: sticky;
+    top: 0;
+    background: fixed;
+
+}
+
+.header .name h4 {
+    letter-spacing: 2px;
+    padding-left: 20px;
+    font-family: Pacifico;
+}
+
+.header .all a {
+    text-decoration: none;
+    padding-left: 100px;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: 900;
+}
+
+.header .all {
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.photo {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    /* Adjust as needed */
+}
+
+.photo .profile-image {
+    width: 300px;
+    /* Adjust based on your image size */
+    height: 400px;
+    position: relative;
+}
+
+.photo .card {
+    background: linear-gradient(to right, black, rgb(6, 6, 164));
+    color: white;
+    font-size: 22px;
+    font-family: Permanent Marker;
+    width: 30rem;
+    height: 14rem;
+    position: absolute;
+    top: 194px;
+    /* Adjust this to move the card vertically */
+    left: 810px;
+    /* Adjust this to move the card horizontally */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.about {
+    text-align: center;
+    width: 38rem;
+    height: 20rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to right, black, rgb(7, 7, 143));
+    color: white;
+    font-size: 22px;
+    font-family: Permanent Marker;
+    margin-left: 30px;
+    margin-top: 40px;
+
+
+
+}
+
+.about ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.skills {
+    display: flex;
+}
+
+.skills {
+    text-align: center;
+    width: 38rem;
+    height: 20rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to right, black, rgb(7, 7, 143));
+    color: white;
+    font-size: 22px;
+    font-family: Permanent Marker;
+    margin-left: 800px;
+    margin-top: 40px;
+
+
+
+}
+
+.skills ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.skills .list2 {
+    margin-top: 95px;
+}
+
+.skills .list1 h1 {
+    margin-left: 100px;
+}
+
+.projects {
+    text-align: center;
+    width: 38rem;
+    height: 20rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to right, black, rgb(7, 7, 143));
+    color: white;
+    font-size: 22px;
+    font-family: Permanent Marker;
+    margin-left: 30px;
+    margin-top: 40px;
+
+
+
+}
+
+.projects ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.resume {
+    text-align: center;
+    width: 38rem;
+    height: 20rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to right, black, rgb(7, 7, 143));
+    color: white;
+    font-size: 22px;
+    font-family: Permanent Marker;
+    margin-left: 800px;
+    margin-top: 40px;
+
+
+
+}
+
+.resume a {
+    text-decoration: none;
+
+    color: white;
+}
+
+.contact {
+    text-align: center;
+    width: 38rem;
+    height: 20rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to right, black, rgb(7, 7, 143));
+    color: white;
+    font-size: 22px;
+    font-family: Permanent Marker;
+    margin-left: 30px;
+    margin-top: 40px;
+
+
+
+
+
+}
+
+.contact ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.contact ul a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.contact ul li i {
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    margin-top: 30px;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    padding: 0 20px;
+}
+
+.footer-container div {
+    flex: 1;
+    margin: 40px;
+}
+
+.footer-container h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer-container p,
+.footer-container a {
+    margin: 5px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #111;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0066cc;
+    color: #fff;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #005bb5;
+}
